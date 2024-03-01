@@ -98,15 +98,11 @@ const Navbar = () => {
         <Link href="#">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
+     
         <Link href="#">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="#">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
+       
       </div>
       {/* Responsive Menu mobile */}
       <div className="md:hidden">

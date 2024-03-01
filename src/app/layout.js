@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/navbar";
 import TransitionProvider from "@/components/transitionProvider";
+import '../app/globals.css'
 
 
 

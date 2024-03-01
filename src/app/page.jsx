@@ -2,37 +2,56 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
-    <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{y:"0%"}} transition={{duration:1}}>
+    <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
       <div className=" h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
-        {/* Image Container */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero.png" alt="hero" fill className="object-contain" />
+        {/* Image Container mt-[-1%] */}
+        <div className="h-1/2 lg:h-full lg:w-1/2 relative mt-[-1%]  ">
+          <Image
+            src="/mypng.png"
+            alt="hero"
+            className="object-contain "
+            fill
+            priority          />
         </div>
         ;{/* text container*/}
         <div className="h-1/2 lg:h-full lg:w-1/2  flex flex-col gap-8 items-center justify-center">
           {/* Title */}
           <h1 className="text-4xl md:text-6xl font-bold">
             {" "}
-            Crafting Digital Experiences, Designing Tomorrow.{" "}
+            Shaping the Future of Digital Interactions{" "}
           </h1>
           {/* desc */}
           <p className="md:text-xl">
-            {" "}
-            I am a passionate designer and developer, crafting digital
-            experiences for the world, dasgsmdfgksdgmkgma , asgniasgaifa,a
-            dsasdasdq dq wd qrqwrqwr eqwr fasdfg.asd asdsad sagsdagasdd asfssdf
-            ds sdfdsfd sd dsfdsfsd{" "}
+            As a highly motivated web developer, I bring over a year of
+            freelance experience and dedicated constant formation in both
+            front-end and back-end technologies. With strong resilience and
+            diverse background , i thrive in collaborative settings and adapt
+            swiftly to new challenges. <br />
+            Eager to leverage my practical experience and continuous learning
+            mindset, I am seeking a position in front-end, back-end, or
+            full-stack development where I can contribute to innovative projects
+            and further my professional growth.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <button  className="hover:bg-gray-800 hover:scale-105 p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <Link href="/portfolio">
               View My Work
+              </Link>
             </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            <button className="hover:bg-gray-100 hover:scale-105 p-4 rounded-lg ring-1 ring-black ">
+            <Link href="/contact">
               Contact Me
+              </Link>
             </button>
           </div>
         </div>
