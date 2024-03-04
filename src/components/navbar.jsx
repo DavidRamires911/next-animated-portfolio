@@ -95,12 +95,15 @@ const Navbar = () => {
       </div>
       {/* SOCIAL ICONS */}
       <div className="hidden md:flex gap-4 items-center justify-center w-1/3">
-        <Link href="#">
-          <Image src="/github.png" alt="" width={24} height={24} />
+        <Link href="https://github.com/DavidRamires911">
+          <Image src="/github.png" alt="" width={35} height={35} />
         </Link>
      
-        <Link href="#">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        <Link href="https://www.linkedin.com/in/david-correia-30239822b/">
+          <Image src="/linkedin.png" alt="" width={35} height={35} />
+        </Link>
+        <Link href="https://en.malt.fr/profile/davidcorreia">
+          <Image src="/malt.svg" alt="" width={35} height={35} />
         </Link>
        
       </div>
@@ -112,7 +115,7 @@ const Navbar = () => {
         >
           <motion.div
             variants={topVariants} animate= {open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded origin-left"
+            className="w-10 h-1  bg-black rounded origin-left"
           ></motion.div>
           <motion.div
             variants={centerVariants} animate= {open ? "opened" : "closed"}
@@ -128,7 +131,7 @@ const Navbar = () => {
           <motion.div
           variants={listVariants} initial="closed" animate={"opened"}
             className="absolute top-0 left-0 w-screen h-screen bg-black
-         text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+         text-zinc-300 flex flex-col items-center justify-center gap-8 text-4xl z-40"
           >
             {links.map((link) => (
               <motion.div variants={listItemVariants} key={link.name}>

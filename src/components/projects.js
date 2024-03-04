@@ -36,7 +36,7 @@ const Projects = [
   },
   {
     id: 4,
-    color: "from-indigo-300 to-green-300",
+    color: "from-indigo-300 to-zinc-400",
     title: "Civiprime",
     desc: `Developed a full stack React, scss website for a construction company, using
     Sanity.io for seamless content management. Enabled the client to
@@ -50,7 +50,7 @@ const Projects = [
   },
   {
     id: 5,
-    color: "from-green-300 to-yellow-300",
+    color: "from-zinc-400 to-sky-800",
     title: "E-commerce",
     desc: ` This project showcases a fully functional full-stack e-commerce platform,
      built to demonstrate the potential of personalized online stores to prospective clients. 
@@ -64,7 +64,7 @@ const Projects = [
   },
   {
     id: 6,
-    color: "from-yellow-300 to-orange-300",
+    color: "from-sky-800 to-sky-300",
     title: "Admin-Dashboard",
     desc: `This dashboard is an extension of the previously e-commerce store, designed to function as a comprehensive 
     administrative tool. The dashboard enables administrators to oversee revenue and orders, manage inventory by
@@ -77,7 +77,7 @@ const Projects = [
   },
   {
     id: 7,
-    color: "from-orange-300 to-red-300",
+    color: "from-sky-300 to-purple-300",
     title: "MSeverin",
     desc: `This project was tailored for a hairdressing salon, utilizing React and SCSS for the front-end development, 
     and Sanity.io for a simplified yet powerful backend/database. It provides the salon with the ability to easily manage pricing, 
@@ -88,7 +88,7 @@ const Projects = [
   },
   {
     id: 8,
-    color: "from-red-300 to-blue-300",
+    color: "from-purple-300 to-purple-800",
     title: "LuxeVista Properties",
     desc: `Real estate application featuring OAuth-based login, enabling
     users to book property visits, add to favorites, and list their own

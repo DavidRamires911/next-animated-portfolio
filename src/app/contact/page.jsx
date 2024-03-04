@@ -64,7 +64,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-indigo-50 rounded-xl text-xl
+          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl
          flex flex-col gap-8 justify-center p-24"
         >
           <span>Dear David Dev,</span>
@@ -80,7 +80,7 @@ const ContactPage = () => {
             className="bg-transparent border-b-2 border-b-black outline-none "
           />
           <span>Regards</span>
-          <button className="bg-indigo-200 rounded font-semibold text-gray-600 p-4">Send
+          <button className="bg-red-200 rounded font-semibold text-gray-600 p-4">Send
           </button>
             {success && (
               <span className="text-green-600 font-semibold">

@@ -16,7 +16,7 @@ const Homepage = () => {
         {/* Image Container mt-[-1%] */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative mt-[-1%]  ">
           <Image
-            src="/mypng.png"
+            src="/hero.png"
             alt="hero"
             className="object-contain "
             fill
@@ -25,21 +25,17 @@ const Homepage = () => {
         ;{/* text container*/}
         <div className="h-1/2 lg:h-full lg:w-1/2  flex flex-col gap-8 items-center justify-center">
           {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl  font-bold">
             {" "}
             Shaping the Future of Digital Interactions{" "}
           </h1>
           {/* desc */}
           <p className="md:text-xl">
-            As a highly motivated web developer, I bring over a year of
+            As a highly motivated fullstack web developer, I bring over a year of
             freelance experience and dedicated constant formation in both
             front-end and back-end technologies. With strong resilience and
             diverse background , i thrive in collaborative settings and adapt
-            swiftly to new challenges. <br />
-            Eager to leverage my practical experience and continuous learning
-            mindset, I am seeking a position in front-end, back-end, or
-            full-stack development where I can contribute to innovative projects
-            and further my professional growth.
+            swiftly to new challenges. 
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">

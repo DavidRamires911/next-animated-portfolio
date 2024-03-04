@@ -25,7 +25,10 @@ const AboutPage = () => {
       transition={{ duration: 1 }}
     >
       {/* CONTAINER */}
-      <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+      <div
+        className="h-full  overflow-scroll lg:flex custom-scrollbar"
+        ref={containerRef}
+      >
         {/* TEXT CONTAINER */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           {/* BIOGRAPHY CONTAINER */}
@@ -41,30 +44,20 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* DESCRIPTION */}
             <p className="text-sm md:text-lg">
-              I am David Correia, holding a degree in Hotel Management, but my
-              passion has always been fascinating world of technology.
-              <br /> From an early age start exploring both hardware and
-              software, captured my interest, leading me to further my education
-              through full stack development courses, including a bootcamp at
-              Ironhack and courses on Udemy.
-              <br /> My career so far has been varied, with experiences ranging
-              from stock management and inventory in the hospitality sector to
-              more physical roles at the airport. These experiences have taught
-              me resilience and adaptability, qualities I value in both my
-              personal and professional life.
-              <br />
-              Outside of work, a gym enthusiast and love spending time outdoors
-              with my dog, always seeking a balance between mind and body.
-              <br /> At work, I consider myself to be very social and
-              good-humored, striving to create a positive and welcoming
-              atmosphere. I firmly believe that a good vibe can transform any
-              workplace. Being naturally curious keeps me constantly updated on
-              the latest technological trends. This curiosity also aids me in
-              learning quickly, especially when it comes to new tools and
-              technologies in the field of computing.
-              <br /> I believe that my diverse background, interpersonal skills,
-              and passion for technology make me a unique and valuable candidate
-              for any team.
+              David Correia: A Hotel Management graduate 
+            but since young with a fascination for
+              both hardware and software, leading me to pursue further education
+              in full stack development through bootcamp courses at Ironhack and Udemy.
+              From managing inventory and F&B in hospitality to hands-on roles at the
+              airport, I've cultivated resilience and adaptability along the
+              way. Outside of work, I'm a gym enthusiast who relishes outdoor
+              adventures with my loyal companion. In the workplace, I thrive on
+              fostering a positive atmosphere, believing in the transformative
+              power of good vibes. My innate curiosity keeps me abreast of the
+              latest tech trends, enabling me to quickly grasp new tools and
+              technologies. With a diverse background, strong interpersonal
+              skills, and unwavering passion for technology, I bring a unique
+              perspective to any team.
             </p>
 
             {/* SIGNATURE SVG */}
@@ -128,8 +121,6 @@ const AboutPage = () => {
               <div className="skills">Auth 2.0</div>
               <div className="skills">Postman / Tunder Client</div>
             </motion.div>
-
-
 
             <SkillScroll />
           </div>
@@ -299,7 +290,7 @@ const AboutPage = () => {
         </div>
         {/* Svg container */}
         {/*  sticky is for the svg to stick to the right side of the container*/}
-        <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2 ">
+        <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2">
           <Brain scrollYProgress={scrollYProgress} />
         </div>
       </div>
