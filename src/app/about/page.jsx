@@ -49,8 +49,8 @@ const AboutPage = () => {
               both hardware and software, leading me to pursue further education
               in full stack development through bootcamp courses at Ironhack and Udemy.
               From managing inventory and F&B in hospitality to hands-on roles at the
-              airport, I've cultivated resilience and adaptability along the
-              way. Outside of work, I'm a gym enthusiast who relishes outdoor
+              airport, I ve cultivated resilience and adaptability along the
+              way. Outside of work, I m a gym enthusiast who relishes outdoor
               adventures with my loyal companion. In the workplace, I thrive on
               fostering a positive atmosphere, believing in the transformative
               power of good vibes. My innate curiosity keeps me abreast of the
